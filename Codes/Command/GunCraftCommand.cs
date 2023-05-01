@@ -4,15 +4,21 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GunCraftCommand : AbstractCommand
+namespace Game
 {
-    private int mIndex;
-    public GunCraftCommand(int index) { mIndex = index; }
-
-    protected override void OnExecute()
+    /// <summary>
+    /// ∫œ≥…«π÷ß√¸¡Ó
+    /// </summary>
+    public class GunCraftCommand : AbstractCommand
     {
-        CraftGunEvent e = new CraftGunEvent();
-        e.index= mIndex;
-        this.SendEvent(e);
+        private int mIndex;
+        public GunCraftCommand(int index) { mIndex = index; }
+
+        protected override void OnExecute()
+        {
+            CraftGunEvent e = new CraftGunEvent();
+            e.index = mIndex;
+            this.SendEvent(e);
+        }
     }
 }

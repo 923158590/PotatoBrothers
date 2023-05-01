@@ -7,6 +7,10 @@ using UnityEngine;
 namespace Game
 {
     public interface ILevelSystem : ISystem { }
+
+    /// <summary>
+    /// 等级系统
+    /// </summary>
     public class LevelSystem : AbstractSystem, ILevelSystem
     {
         protected override void OnInit()

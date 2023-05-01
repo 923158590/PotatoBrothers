@@ -2,6 +2,9 @@
 
 namespace Game
 {
+    /// <summary>
+    /// 玩家升级命令
+    /// </summary>
     public class PlayerLevelUpCommand : AbstractCommand
     {
         protected override void OnExecute()

@@ -7,6 +7,10 @@ using UnityEngine;
 namespace Game
 {
     public interface IGridCreateSystem : ISystem { }
+
+    /// <summary>
+    /// 创建地图系统
+    /// </summary>
     public class GridCreateSystem : AbstractSystem, IGridCreateSystem
     {
         private Sprite mGroundSprite;

@@ -10,6 +10,8 @@ namespace Game
     {
         public void CreatePlayer(int x, int y);
     }
+
+    // 管理玩家的系统
     public class PlayerCreateSystem : AbstractSystem, IPlayerCreateSystem
     {
         private GameObject mPlayerPrefab;

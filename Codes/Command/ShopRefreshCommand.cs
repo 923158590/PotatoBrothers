@@ -5,6 +5,9 @@ using UnityEngine;
 
 namespace Game
 {
+    /// <summary>
+    /// 商店刷新命令
+    /// </summary>
     public class ShopRefreshCommand : AbstractCommand
     {
         protected override void OnExecute()

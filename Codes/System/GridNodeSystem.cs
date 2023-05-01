@@ -17,6 +17,7 @@ namespace Game
         Vector2Int FindBlockPos(int w, int h);
     }
 
+    // µØÍ¼ÏµÍ³
     public class GridNodeSystem : AbstractSystem, IGridNodeSystem
     {
         private Node[,] mNodes;
@@ -42,22 +43,6 @@ namespace Game
                     this.SendEvent(e);
                 }
             }
-
-            //if (mNodes == null || mNodes.GetLength(0) < w || mNodes.GetLength(1) < h) mNodes = new Node[w + 1, h + 1];
-
-            //var e = new CreateNodeEvent();
-
-            //for (int row = 0; row < w + 1; row++)
-            //{
-            //    for (int col = 0; col < h + 1; col++)
-            //    {
-            //        if (mNodes[row, col] == null) mNodes[row, col] = new Node();
-            //        mNodes[row, col].type = row == w || col == h || row == 0 || col == 0 ? Node.E_Type.Ground : Node.E_Type.Wall;
-            //        e.type = mNodes[row, col].type;
-            //        e.pos = new Vector2(row, col);
-            //        this.SendEvent(e);
-            //    }
-            //}
         }
 
 

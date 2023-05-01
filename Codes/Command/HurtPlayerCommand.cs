@@ -3,6 +3,9 @@ using UnityEngine.SceneManagement;
 
 namespace Game
 {
+    /// <summary>
+    /// Íæ¼ÒÊÜÉËÃüÁî
+    /// </summary>
     public class HurtPlayerCommand : AbstractCommand
     {
         private readonly float mHurt;

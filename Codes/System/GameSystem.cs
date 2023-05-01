@@ -18,6 +18,9 @@ namespace Game
         public int Round { get; }
     }
 
+    /// <summary>
+    /// 游戏系统
+    /// </summary>
     public class GameSystem : AbstractSystem, IGameSystem
     {
         // 关卡回合

@@ -20,6 +20,9 @@ namespace Game
         public List<bool> Lock { get; set; }
     }
 
+    /// <summary>
+    /// 商品系统
+    /// </summary>
     public class ShopSystem : AbstractSystem, IShopSystem
     {
         // 玩家初始刷新所需要的金币
@@ -49,6 +52,7 @@ namespace Game
             mLock.AddRange(trueArray);
         }
 
+        // 锁住物品
         private void OnChangeLockShopItem(LockShopItemEvent e)
         {
             mLock[e.index] = !mLock[e.index];
@@ -62,6 +66,7 @@ namespace Game
             }
         }
 
+        // 初始化商店
         private void OnInitShop(InitShopSuccessfulEvent e)
         {
             ClearNoLockItem();
@@ -82,6 +87,7 @@ namespace Game
             this.SendEvent(refreshShopSuccessfulEvent);
         }
 
+        // 刷新商店
         private void OnRefreshShop(RefreshShopEvent e)
         {
             ClearNoLockItem();

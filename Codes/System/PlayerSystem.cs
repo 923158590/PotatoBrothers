@@ -7,6 +7,9 @@ using UnityEngine;
 namespace Game
 {
     public interface IPlayerSystem : ISystem { }
+    /// <summary>
+    /// Íæ¼ÒÏµÍ³
+    /// </summary>
     public class PlayerSystem : AbstractSystem, IPlayerSystem
     {
         protected override void OnInit()

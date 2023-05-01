@@ -32,6 +32,9 @@ namespace Game
         public int getGunNumsInBag();
     }
 
+    /// <summary>
+    /// 枪支系统
+    /// </summary>
     public class GunSystem : AbstractSystem, IGunSystem
     {
         /// <summary>

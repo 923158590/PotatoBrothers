@@ -7,6 +7,9 @@ using UnityEngine;
 namespace Game
 {
     public interface IUISystem : ISystem { }
+    /// <summary>
+    /// UI系统
+    /// </summary>
     public class UISystem : AbstractSystem, IUISystem
     {
         private GameObject mShopUIPrefab;
@@ -20,10 +23,11 @@ namespace Game
             this.RegisterEvent<NextRoundStartEvent>(OnCloseShopView);
             this.RegisterEvent<InitShopEvent>(OnInitShopView);
             this.RegisterEvent<PlayerWinThisRoundEvent>(OnInitSkillLevelUpView);
-            this.RegisterEvent<GameInitEndEvent>(OnInitUI);
+            this.RegisterEvent<GameInitEndEvent>(OnInitUISystem);
         }
 
-        private void OnInitUI(GameInitEndEvent obj)
+        // 初始化UISystem
+        private void OnInitUISystem(GameInitEndEvent obj)
         {
             mShopUIPrefab = Resources.Load<GameObject>("Prefab/UI/UI_Shop");
             mCanvasPrefab = Resources.Load<GameObject>("Prefab/UI/Canvas");
@@ -39,13 +43,14 @@ namespace Game
             //UnityEngine.Object.DontDestroyOnLoad(SkillLevelUpUI);
         }
 
+        // 初始化技能视图
         private void OnInitSkillLevelUpView(PlayerWinThisRoundEvent e)
         {
             SkillLevelUpUI.SetActive(true);
             this.SendEvent<InitSkillLevelUpViewEvent>();
         }
 
-
+        // 初始化商店视图
         private void OnInitShopView(InitShopEvent e)
         {
             if (ShopUI == null)
@@ -57,6 +62,7 @@ namespace Game
             this.SendEvent<UpdateShoppingViewEvent>();
         }
 
+        // 关闭商店视图
         private void OnCloseShopView(NextRoundStartEvent e)
         {
             if (ShopUI != null)

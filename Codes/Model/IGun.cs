@@ -42,7 +42,10 @@ namespace Game
         public GunRank Rank { get; set; }
         BindableProperty<float> Coin { get; }
     }
-
+    
+    /// <summary>
+    ///  ÷«πModel
+    /// </summary>
     public class PistolModel : AbstractModel, IGunModel
     {
         public BindableProperty<string> Name { get; } = new BindableProperty<string>()
@@ -75,6 +78,9 @@ namespace Game
         }
     }
 
+    /// <summary>
+    /// ≥Â∑Ê«πModel
+    /// </summary>
     public class SubmachineGunModel : AbstractModel, IGunModel
     {
         public BindableProperty<string> Name { get; } = new BindableProperty<string>()
@@ -105,6 +111,9 @@ namespace Game
         }
     }
 
+    /// <summary>
+    /// ≤Ω«πModel
+    /// </summary>
     public class RifleModel : AbstractModel, IGunModel
     {
         public BindableProperty<string> Name { get; } = new BindableProperty<string>()

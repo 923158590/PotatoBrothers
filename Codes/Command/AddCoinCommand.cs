@@ -4,12 +4,18 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class AddCoinCommand : AbstractCommand
+namespace Game
 {
-    protected override void OnExecute()
+    /// <summary>
+    /// ªÒ»°Ω±“√¸¡Ó
+    /// </summary>
+    public class AddCoinCommand : AbstractCommand
     {
-        AddCoinEvent e = new AddCoinEvent();
-        e.coin = 1;
-        this.SendEvent(e);
+        protected override void OnExecute()
+        {
+            AddCoinEvent e = new AddCoinEvent();
+            e.coin = 1;
+            this.SendEvent(e);
+        }
     }
 }

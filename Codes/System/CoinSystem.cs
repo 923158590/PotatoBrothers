@@ -14,6 +14,10 @@ namespace Game
         /// <returns></returns>
         public float getCoins();
     }
+
+    /// <summary>
+    /// 金币系统
+    /// </summary>
     public class CoinSystem : AbstractSystem, ICoinSystem
     {
         // 金币预制体

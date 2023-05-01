@@ -10,6 +10,7 @@ namespace Game
         float CurrentSeconds { get; }
         DelayTask AddDelayTask(float seconds, Action onDelayFinish, bool isContinue = false);
     }
+    // 时间系统
     public class TimeSystem : AbstractSystem, ITimeSystem
     {
         private float mCurrentSeconds = 0;

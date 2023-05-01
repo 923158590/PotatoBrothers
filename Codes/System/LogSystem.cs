@@ -15,6 +15,10 @@ namespace Game
         /// <param name="message"></param>
         public void SetLog(string message);
     }
+
+    /// <summary>
+    /// 日志系统
+    /// </summary>
     public class LogSystem : AbstractSystem, ILogSystem
     {
         private string mLog;
