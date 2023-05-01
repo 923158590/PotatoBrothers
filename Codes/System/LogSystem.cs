@@ -16,7 +16,7 @@ namespace Game
     }
 
     /// <summary>
-    /// 日志系统！
+    /// 日志系统
     /// </summary>
     public class LogSystem : AbstractSystem, ILogSystem
     {

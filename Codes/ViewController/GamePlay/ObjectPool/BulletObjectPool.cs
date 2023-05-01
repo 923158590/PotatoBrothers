@@ -5,6 +5,9 @@ using UnityEngine;
 
 namespace Game
 {
+    /// <summary>
+    /// ×Óµ¯¶ÔÏó³Ø
+    /// </summary>
     public class BulletObjectPool : MonoBehaviour, IController
     {
         public GameObject prefab;
