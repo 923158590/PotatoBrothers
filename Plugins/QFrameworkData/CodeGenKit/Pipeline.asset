@@ -1,0 +1,342 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 621f3f918dd5423d93a746ad8fc9082d, type: 3}
+  m_Name: Pipeline
+  m_EditorClassIdentifier: 
+  CurrentTask:
+    ShowLog: 0
+    Status: 1
+    GameObject: {fileID: 0}
+    From: 0
+    NameToFullName: []
+    BindInfos:
+    - TypeName: UnityEngine.UI.Text
+      PathToRoot: PlayerStatus/BackGround/Title
+      MemberName: Title
+    - TypeName: UnityEngine.UI.Text
+      PathToRoot: PlayerStatus/BackGround/StatusText/PlayerStatus_HPText
+      MemberName: PlayerStatus_HPText
+    - TypeName: UnityEngine.UI.Text
+      PathToRoot: PlayerStatus/BackGround/StatusText/PlayerStatus_AttackText
+      MemberName: PlayerStatus_AttackText
+    - TypeName: UnityEngine.UI.Text
+      PathToRoot: PlayerStatus/BackGround/StatusText/PlayerStatus_AttackSpeedText
+      MemberName: PlayerStatus_AttackSpeedText
+    - TypeName: UnityEngine.UI.Text
+      PathToRoot: PlayerStatus/BackGround/StatusText/PlayerStatus_SpeedText
+      MemberName: PlayerStatus_SpeedText
+    - TypeName: UnityEngine.UI.Text
+      PathToRoot: PlayerStatus/BackGround/StatusText/PlayerStatus_RecoverText
+      MemberName: PlayerStatus_RecoverText
+    - TypeName: UnityEngine.UI.Text
+      PathToRoot: PlayerStatus/BackGround/StatusText/PlayerStatus_LuckyText
+      MemberName: PlayerStatus_LuckyText
+    - TypeName: UnityEngine.UI.Text
+      PathToRoot: PlayerStatus/BackGround/StatusText/PlayerStatus_LifeStealText
+      MemberName: PlayerStatus_LifeStealText
+    - TypeName: UnityEngine.UI.Text
+      PathToRoot: Gun/Gun_Title
+      MemberName: Gun_Title
+    - TypeName: UnityEngine.UI.Image
+      PathToRoot: Gun/Weapon1
+      MemberName: Weapon1
+    - TypeName: UnityEngine.UI.Image
+      PathToRoot: Gun/Weapon1/Weapon1_Sprite
+      MemberName: Weapon1_Sprite
+    - TypeName: UnityEngine.UI.Button
+      PathToRoot: Gun/Weapon1/Weapon1_Button
+      MemberName: Weapon1_Button
+    - TypeName: UnityEngine.UI.Image
+      PathToRoot: Gun/Weapon2
+      MemberName: Weapon2
+    - TypeName: UnityEngine.UI.Image
+      PathToRoot: Gun/Weapon2/Weapon2_Sprite
+      MemberName: Weapon2_Sprite
+    - TypeName: UnityEngine.UI.Button
+      PathToRoot: Gun/Weapon2/Weapon2_Button
+      MemberName: Weapon2_Button
+    - TypeName: UnityEngine.UI.Image
+      PathToRoot: Gun/Weapon3
+      MemberName: Weapon3
+    - TypeName: UnityEngine.UI.Image
+      PathToRoot: Gun/Weapon3/Weapon3_Sprite
+      MemberName: Weapon3_Sprite
+    - TypeName: UnityEngine.UI.Button
+      PathToRoot: Gun/Weapon3/Weapon3_Button
+      MemberName: Weapon3_Button
+    - TypeName: UnityEngine.UI.Image
+      PathToRoot: Gun/Weapon4
+      MemberName: Weapon4
+    - TypeName: UnityEngine.UI.Image
+      PathToRoot: Gun/Weapon4/Weapon4_Sprite
+      MemberName: Weapon4_Sprite
+    - TypeName: UnityEngine.UI.Button
+      PathToRoot: Gun/Weapon4/Weapon4_Button
+      MemberName: Weapon4_Button
+    - TypeName: UnityEngine.UI.Image
+      PathToRoot: Gun/Weapon5
+      MemberName: Weapon5
+    - TypeName: UnityEngine.UI.Image
+      PathToRoot: Gun/Weapon5/Weapon5_Sprite
+      MemberName: Weapon5_Sprite
+    - TypeName: UnityEngine.UI.Button
+      PathToRoot: Gun/Weapon5/Weapon5_Button
+      MemberName: Weapon5_Button
+    - TypeName: UnityEngine.UI.Image
+      PathToRoot: Gun/Weapon6
+      MemberName: Weapon6
+    - TypeName: UnityEngine.UI.Image
+      PathToRoot: Gun/Weapon6/Weapon6_Sprite
+      MemberName: Weapon6_Sprite
+    - TypeName: UnityEngine.UI.Button
+      PathToRoot: Gun/Weapon6/Weapon6_Button
+      MemberName: Weapon6_Button
+    - TypeName: RectTransform
+      PathToRoot: Shop/Item1
+      MemberName: Item1
+    - TypeName: UnityEngine.UI.Image
+      PathToRoot: Shop/Item1/Item1_BackGround
+      MemberName: Item1_BackGround
+    - TypeName: UnityEngine.UI.Button
+      PathToRoot: Shop/Item1/Item1_LockButton
+      MemberName: Item1_LockButton
+    - TypeName: UnityEngine.UI.Image
+      PathToRoot: Shop/Item1/Item1_Sprite
+      MemberName: Item1_Sprite
+    - TypeName: UnityEngine.UI.Text
+      PathToRoot: Shop/Item1/Item1_AttackText
+      MemberName: Item1_AttackText
+    - TypeName: UnityEngine.UI.Text
+      PathToRoot: Shop/Item1/Item1_AttackSpeedText
+      MemberName: Item1_AttackSpeedText
+    - TypeName: UnityEngine.UI.Text
+      PathToRoot: Shop/Item1/Item1_NameText
+      MemberName: Item1_NameText
+    - TypeName: UnityEngine.UI.Button
+      PathToRoot: Shop/Item1/Item1_ShopButton
+      MemberName: Item1_ShopButton
+    - TypeName: UnityEngine.UI.Text
+      PathToRoot: Shop/Item1/Item1_ShopButton/Item1_ShopButtonText
+      MemberName: Item1_ShopButtonText
+    - TypeName: RectTransform
+      PathToRoot: Shop/Item2
+      MemberName: Item2
+    - TypeName: UnityEngine.UI.Image
+      PathToRoot: Shop/Item2/Item2_BackGround
+      MemberName: Item2_BackGround
+    - TypeName: UnityEngine.UI.Text
+      PathToRoot: Shop/Item2/Item2_AttackText
+      MemberName: Item2_AttackText
+    - TypeName: UnityEngine.UI.Text
+      PathToRoot: Shop/Item2/Item2_AttackSpeedText
+      MemberName: Item2_AttackSpeedText
+    - TypeName: UnityEngine.UI.Text
+      PathToRoot: Shop/Item2/Item2_NameText
+      MemberName: Item2_NameText
+    - TypeName: UnityEngine.UI.Image
+      PathToRoot: Shop/Item2/Item2_Sprite
+      MemberName: Item2_Sprite
+    - TypeName: UnityEngine.UI.Button
+      PathToRoot: Shop/Item2/Item2_ShopButton
+      MemberName: Item2_ShopButton
+    - TypeName: UnityEngine.UI.Text
+      PathToRoot: Shop/Item2/Item2_ShopButton/Item2_ShopButtonText
+      MemberName: Item2_ShopButtonText
+    - TypeName: UnityEngine.UI.Button
+      PathToRoot: Shop/Item2/Item2_LockButton
+      MemberName: Item2_LockButton
+    - TypeName: RectTransform
+      PathToRoot: Shop/Item3
+      MemberName: Item3
+    - TypeName: UnityEngine.UI.Image
+      PathToRoot: Shop/Item3/Item3_BackGround
+      MemberName: Item3_BackGround
+    - TypeName: UnityEngine.UI.Text
+      PathToRoot: Shop/Item3/Item3_AttackText
+      MemberName: Item3_AttackText
+    - TypeName: UnityEngine.UI.Text
+      PathToRoot: Shop/Item3/Item3_AttackSpeedText
+      MemberName: Item3_AttackSpeedText
+    - TypeName: UnityEngine.UI.Text
+      PathToRoot: Shop/Item3/Item3_NameText
+      MemberName: Item3_NameText
+    - TypeName: UnityEngine.UI.Image
+      PathToRoot: Shop/Item3/Item3_Sprite
+      MemberName: Item3_Sprite
+    - TypeName: UnityEngine.UI.Button
+      PathToRoot: Shop/Item3/Item3_ShopButton
+      MemberName: Item3_ShopButton
+    - TypeName: UnityEngine.UI.Text
+      PathToRoot: Shop/Item3/Item3_ShopButton/Item3_ShopButtonText
+      MemberName: Item3_ShopButtonText
+    - TypeName: UnityEngine.UI.Button
+      PathToRoot: Shop/Item3/Item3_LockButton
+      MemberName: Item3_LockButton
+    - TypeName: RectTransform
+      PathToRoot: Shop/Item4
+      MemberName: Item4
+    - TypeName: UnityEngine.UI.Image
+      PathToRoot: Shop/Item4/Item4_BackGround
+      MemberName: Item4_BackGround
+    - TypeName: UnityEngine.UI.Text
+      PathToRoot: Shop/Item4/Item4_AttackText
+      MemberName: Item4_AttackText
+    - TypeName: UnityEngine.UI.Text
+      PathToRoot: Shop/Item4/Item4_AttackSpeedText
+      MemberName: Item4_AttackSpeedText
+    - TypeName: UnityEngine.UI.Text
+      PathToRoot: Shop/Item4/Item4_NameText
+      MemberName: Item4_NameText
+    - TypeName: UnityEngine.UI.Image
+      PathToRoot: Shop/Item4/Item4_Sprite
+      MemberName: Item4_Sprite
+    - TypeName: UnityEngine.UI.Button
+      PathToRoot: Shop/Item4/Item4_ShopButton
+      MemberName: Item4_ShopButton
+    - TypeName: UnityEngine.UI.Text
+      PathToRoot: Shop/Item4/Item4_ShopButton/Item4_ShopButtonText
+      MemberName: Item4_ShopButtonText
+    - TypeName: UnityEngine.UI.Button
+      PathToRoot: Shop/Item4/Item4_LockButton
+      MemberName: Item4_LockButton
+    - TypeName: UnityEngine.UI.Button
+      PathToRoot: RefreshButton
+      MemberName: RefreshButton
+    - TypeName: UnityEngine.UI.Text
+      PathToRoot: RefreshButton/RefreshButtonText
+      MemberName: RefreshButtonText
+    - TypeName: UnityEngine.UI.Button
+      PathToRoot: StartNextRoundButton
+      MemberName: StartNextRoundButton
+    - TypeName: UnityEngine.UI.Text
+      PathToRoot: RoundText
+      MemberName: RoundText
+    - TypeName: UnityEngine.UI.Text
+      PathToRoot: LogText
+      MemberName: LogText
+    - TypeName: UnityEngine.UI.Text
+      PathToRoot: CoinText
+      MemberName: CoinText
+    - TypeName: UnityEngine.UI.Image
+      PathToRoot: SelectGunInformationBackGround
+      MemberName: SelectGunInformationBackGround
+    - TypeName: RectTransform
+      PathToRoot: SelectGunInformation
+      MemberName: SelectGunInformation
+    - TypeName: UnityEngine.UI.Image
+      PathToRoot: SelectGunInformation/SelectGunInformation_BackGround
+      MemberName: SelectGunInformation_BackGround
+    - TypeName: UnityEngine.UI.Image
+      PathToRoot: SelectGunInformation/SelectGunInformation_SpriteBackGround
+      MemberName: SelectGunInformation_SpriteBackGround
+    - TypeName: UnityEngine.UI.Image
+      PathToRoot: SelectGunInformation/SelectGunInformation_Sprite
+      MemberName: SelectGunInformation_Sprite
+    - TypeName: UnityEngine.UI.Text
+      PathToRoot: SelectGunInformation/SelectGunInformation_AttackText
+      MemberName: SelectGunInformation_AttackText
+    - TypeName: UnityEngine.UI.Text
+      PathToRoot: SelectGunInformation/SelectGunInformation_AttackSpeedText
+      MemberName: SelectGunInformation_AttackSpeedText
+    - TypeName: UnityEngine.UI.Text
+      PathToRoot: SelectGunInformation/SelectGunInformation_NameText
+      MemberName: SelectGunInformation_NameText
+    - TypeName: UnityEngine.UI.Button
+      PathToRoot: SelectGunInformation/SelectGunInformation_Cancel
+      MemberName: SelectGunInformation_Cancel
+    - TypeName: UnityEngine.UI.Text
+      PathToRoot: SelectGunInformation/SelectGunInformation_Cancel/Item1_CancelText
+      MemberName: Item1_CancelText
+    - TypeName: UnityEngine.UI.Button
+      PathToRoot: SelectGunInformation/SelectGunInformation_Sale
+      MemberName: SelectGunInformation_Sale
+    - TypeName: UnityEngine.UI.Text
+      PathToRoot: SelectGunInformation/SelectGunInformation_Sale/Item1_SaleText
+      MemberName: Item1_SaleText
+    - TypeName: UnityEngine.UI.Button
+      PathToRoot: SelectGunInformation/SelectGunInformation_Craft
+      MemberName: SelectGunInformation_Craft
+    - TypeName: UnityEngine.UI.Text
+      PathToRoot: SelectGunInformation/SelectGunInformation_Craft/Item1_CraftText
+      MemberName: Item1_CraftText
+    - TypeName: UnityEngine.UI.Text
+      PathToRoot: ShopInformation/ShopInformationText
+      MemberName: ShopInformationText
+    ScriptsFolder: "Assets/QFramework/Framework/\u571F\u8C46\u5144\u5F1F/Codes/ViewController/UI/Shop"
+    ClassName: UIShop
+    Namespace: Game
+    MainCode: "using UnityEngine;\r\nusing QFramework;\r\n\r\n// 1.\u8BF7\u5728\u83DC\u5355
+      \u7F16\u8F91\u5668\u6269\u5C55/Namespace Settings \u91CC\u8BBE\u7F6E\u547D\u540D\u7A7A\u95F4\r\n//
+      2.\u547D\u540D\u7A7A\u95F4\u66F4\u6539\u540E\uFF0C\u751F\u6210\u4EE3\u7801\u4E4B\u540E\uFF0C\u9700\u8981\u628A\u903B\u8F91\u4EE3\u7801\u6587\u4EF6\uFF08\u975E
+      Designer\uFF09\u7684\u547D\u540D\u7A7A\u95F4\u624B\u52A8\u66F4\u6539\r\nnamespace
+      Game\r\n{\r\n\tpublic partial class UIShop : ViewController\r\n\t{\r\n\t\tvoid
+      Start()\r\n\t\t{\r\n\t\t\t// Code Here\r\n\t\t}\r\n\t}\r\n}\r\n"
+    DesignerCode: "// Generate Id:ec6f0f93-ac67-410b-996b-8e1f12eb2e2c\r\nusing UnityEngine;\r\n\r\n//
+      1.\u8BF7\u5728\u83DC\u5355 \u7F16\u8F91\u5668\u6269\u5C55/Namespace Settings
+      \u91CC\u8BBE\u7F6E\u547D\u540D\u7A7A\u95F4\r\n// 2.\u547D\u540D\u7A7A\u95F4\u66F4\u6539\u540E\uFF0C\u751F\u6210\u4EE3\u7801\u4E4B\u540E\uFF0C\u9700\u8981\u628A\u903B\u8F91\u4EE3\u7801\u6587\u4EF6\uFF08\u975E
+      Designer\uFF09\u7684\u547D\u540D\u7A7A\u95F4\u624B\u52A8\u66F4\u6539\r\nnamespace
+      Game\r\n{\r\n\tpublic partial class UIShop\r\n\t{\r\n\r\n\t\tpublic UnityEngine.UI.Text
+      Title;\r\n\r\n\t\tpublic UnityEngine.UI.Text PlayerStatus_HPText;\r\n\r\n\t\tpublic
+      UnityEngine.UI.Text PlayerStatus_AttackText;\r\n\r\n\t\tpublic UnityEngine.UI.Text
+      PlayerStatus_AttackSpeedText;\r\n\r\n\t\tpublic UnityEngine.UI.Text PlayerStatus_SpeedText;\r\n\r\n\t\tpublic
+      UnityEngine.UI.Text PlayerStatus_RecoverText;\r\n\r\n\t\tpublic UnityEngine.UI.Text
+      PlayerStatus_LuckyText;\r\n\r\n\t\tpublic UnityEngine.UI.Text PlayerStatus_LifeStealText;\r\n\r\n\t\tpublic
+      UnityEngine.UI.Text Gun_Title;\r\n\r\n\t\tpublic UnityEngine.UI.Image Weapon1;\r\n\r\n\t\tpublic
+      UnityEngine.UI.Image Weapon1_Sprite;\r\n\r\n\t\tpublic UnityEngine.UI.Button
+      Weapon1_Button;\r\n\r\n\t\tpublic UnityEngine.UI.Image Weapon2;\r\n\r\n\t\tpublic
+      UnityEngine.UI.Image Weapon2_Sprite;\r\n\r\n\t\tpublic UnityEngine.UI.Button
+      Weapon2_Button;\r\n\r\n\t\tpublic UnityEngine.UI.Image Weapon3;\r\n\r\n\t\tpublic
+      UnityEngine.UI.Image Weapon3_Sprite;\r\n\r\n\t\tpublic UnityEngine.UI.Button
+      Weapon3_Button;\r\n\r\n\t\tpublic UnityEngine.UI.Image Weapon4;\r\n\r\n\t\tpublic
+      UnityEngine.UI.Image Weapon4_Sprite;\r\n\r\n\t\tpublic UnityEngine.UI.Button
+      Weapon4_Button;\r\n\r\n\t\tpublic UnityEngine.UI.Image Weapon5;\r\n\r\n\t\tpublic
+      UnityEngine.UI.Image Weapon5_Sprite;\r\n\r\n\t\tpublic UnityEngine.UI.Button
+      Weapon5_Button;\r\n\r\n\t\tpublic UnityEngine.UI.Image Weapon6;\r\n\r\n\t\tpublic
+      UnityEngine.UI.Image Weapon6_Sprite;\r\n\r\n\t\tpublic UnityEngine.UI.Button
+      Weapon6_Button;\r\n\r\n\t\tpublic RectTransform Item1;\r\n\r\n\t\tpublic UnityEngine.UI.Image
+      Item1_BackGround;\r\n\r\n\t\tpublic UnityEngine.UI.Button Item1_LockButton;\r\n\r\n\t\tpublic
+      UnityEngine.UI.Image Item1_Sprite;\r\n\r\n\t\tpublic UnityEngine.UI.Text Item1_AttackText;\r\n\r\n\t\tpublic
+      UnityEngine.UI.Text Item1_AttackSpeedText;\r\n\r\n\t\tpublic UnityEngine.UI.Text
+      Item1_NameText;\r\n\r\n\t\tpublic UnityEngine.UI.Button Item1_ShopButton;\r\n\r\n\t\tpublic
+      UnityEngine.UI.Text Item1_ShopButtonText;\r\n\r\n\t\tpublic RectTransform Item2;\r\n\r\n\t\tpublic
+      UnityEngine.UI.Image Item2_BackGround;\r\n\r\n\t\tpublic UnityEngine.UI.Text
+      Item2_AttackText;\r\n\r\n\t\tpublic UnityEngine.UI.Text Item2_AttackSpeedText;\r\n\r\n\t\tpublic
+      UnityEngine.UI.Text Item2_NameText;\r\n\r\n\t\tpublic UnityEngine.UI.Image
+      Item2_Sprite;\r\n\r\n\t\tpublic UnityEngine.UI.Button Item2_ShopButton;\r\n\r\n\t\tpublic
+      UnityEngine.UI.Text Item2_ShopButtonText;\r\n\r\n\t\tpublic UnityEngine.UI.Button
+      Item2_LockButton;\r\n\r\n\t\tpublic RectTransform Item3;\r\n\r\n\t\tpublic
+      UnityEngine.UI.Image Item3_BackGround;\r\n\r\n\t\tpublic UnityEngine.UI.Text
+      Item3_AttackText;\r\n\r\n\t\tpublic UnityEngine.UI.Text Item3_AttackSpeedText;\r\n\r\n\t\tpublic
+      UnityEngine.UI.Text Item3_NameText;\r\n\r\n\t\tpublic UnityEngine.UI.Image
+      Item3_Sprite;\r\n\r\n\t\tpublic UnityEngine.UI.Button Item3_ShopButton;\r\n\r\n\t\tpublic
+      UnityEngine.UI.Text Item3_ShopButtonText;\r\n\r\n\t\tpublic UnityEngine.UI.Button
+      Item3_LockButton;\r\n\r\n\t\tpublic RectTransform Item4;\r\n\r\n\t\tpublic
+      UnityEngine.UI.Image Item4_BackGround;\r\n\r\n\t\tpublic UnityEngine.UI.Text
+      Item4_AttackText;\r\n\r\n\t\tpublic UnityEngine.UI.Text Item4_AttackSpeedText;\r\n\r\n\t\tpublic
+      UnityEngine.UI.Text Item4_NameText;\r\n\r\n\t\tpublic UnityEngine.UI.Image
+      Item4_Sprite;\r\n\r\n\t\tpublic UnityEngine.UI.Button Item4_ShopButton;\r\n\r\n\t\tpublic
+      UnityEngine.UI.Text Item4_ShopButtonText;\r\n\r\n\t\tpublic UnityEngine.UI.Button
+      Item4_LockButton;\r\n\r\n\t\tpublic UnityEngine.UI.Button RefreshButton;\r\n\r\n\t\tpublic
+      UnityEngine.UI.Text RefreshButtonText;\r\n\r\n\t\tpublic UnityEngine.UI.Button
+      StartNextRoundButton;\r\n\r\n\t\tpublic UnityEngine.UI.Text RoundText;\r\n\r\n\t\tpublic
+      UnityEngine.UI.Text LogText;\r\n\r\n\t\tpublic UnityEngine.UI.Text CoinText;\r\n\r\n\t\tpublic
+      UnityEngine.UI.Image SelectGunInformationBackGround;\r\n\r\n\t\tpublic RectTransform
+      SelectGunInformation;\r\n\r\n\t\tpublic UnityEngine.UI.Image SelectGunInformation_BackGround;\r\n\r\n\t\tpublic
+      UnityEngine.UI.Image SelectGunInformation_SpriteBackGround;\r\n\r\n\t\tpublic
+      UnityEngine.UI.Image SelectGunInformation_Sprite;\r\n\r\n\t\tpublic UnityEngine.UI.Text
+      SelectGunInformation_AttackText;\r\n\r\n\t\tpublic UnityEngine.UI.Text SelectGunInformation_AttackSpeedText;\r\n\r\n\t\tpublic
+      UnityEngine.UI.Text SelectGunInformation_NameText;\r\n\r\n\t\tpublic UnityEngine.UI.Button
+      SelectGunInformation_Cancel;\r\n\r\n\t\tpublic UnityEngine.UI.Text Item1_CancelText;\r\n\r\n\t\tpublic
+      UnityEngine.UI.Button SelectGunInformation_Sale;\r\n\r\n\t\tpublic UnityEngine.UI.Text
+      Item1_SaleText;\r\n\r\n\t\tpublic UnityEngine.UI.Button SelectGunInformation_Craft;\r\n\r\n\t\tpublic
+      UnityEngine.UI.Text Item1_CraftText;\r\n\r\n\t\tpublic UnityEngine.UI.Text
+      ShopInformationText;\r\n\r\n\t}\r\n}\r\n"
