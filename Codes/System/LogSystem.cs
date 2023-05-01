@@ -12,12 +12,11 @@ namespace Game
         /// <summary>
         /// 设置日志信息
         /// </summary>
-        /// <param name="message"></param>
         public void SetLog(string message);
     }
 
     /// <summary>
-    /// 日志系统
+    /// 日志系统！
     /// </summary>
     public class LogSystem : AbstractSystem, ILogSystem
     {

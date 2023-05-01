@@ -21,7 +21,7 @@ namespace Game
     }
 
     /// <summary>
-    /// 商品系统
+    /// 商店系统
     /// </summary>
     public class ShopSystem : AbstractSystem, IShopSystem
     {

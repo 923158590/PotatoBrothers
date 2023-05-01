@@ -10,9 +10,9 @@ namespace Game
         public void CreateEnemy(int x, int y);
     }
 
-    /// <summary>
-    /// 创建敌人系统(已废弃)
-    /// </summary>
+        /// <summary>
+        /// 创建敌人系统（已废弃）
+        /// </summary>
     public class EnemyCreateSystem : AbstractSystem, IEnemyCreateSystem
     {
         private GameObject mEnemyGo;
