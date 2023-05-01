@@ -5,55 +5,55 @@ namespace Game
     public interface IPlayerModel : IModel
     {
         /// <summary>
-        /// Íæ¼ÒÑªÁ¿ÉÏÏŞ
+        /// ç©å®¶è¡€é‡ä¸Šé™
         /// </summary>
         BindableProperty<float> maxHP { get; }
         /// <summary>
-        /// Íæ¼Òµ±Ç°ÑªÁ¿
+        /// ç©å®¶å½“å‰è¡€é‡
         /// </summary>
         BindableProperty<float> HP { get; }
         /// <summary>
-        /// Íæ¼Ò¾­Ñé
+        /// ç©å®¶ç»éªŒ
         /// </summary>
         BindableProperty<float> EXP { get; }
         /// <summary>
-        /// Íæ¼ÒÉı¼¶ËùĞè¾­ÑéÖµ
+        /// ç©å®¶å‡çº§æ‰€éœ€ç»éªŒå€¼
         /// </summary>
         BindableProperty<float> maxEXP { get; }
         /// <summary>
-        /// Íæ¼Ò¹¥»÷Á¦
+        /// ç©å®¶æ”»å‡»åŠ›
         /// </summary>
         BindableProperty<float> attack { get; }
         /// <summary>
-        /// Íæ¼Ò¹¥»÷ËÙ¶È
+        /// ç©å®¶æ”»å‡»é€Ÿåº¦
         /// </summary>
         BindableProperty<float> attackSpeed { get; }
         /// <summary>
-        /// Íæ¼ÒÒÆËÙ
+        /// ç©å®¶ç§»é€Ÿ
         /// </summary>
         BindableProperty<float> speed { get; }
         /// <summary>
-        /// Íæ¼Ò»Ö¸´ËÙÂÊ
+        /// ç©å®¶æ¢å¤é€Ÿç‡
         /// </summary>
         BindableProperty<float> recover { get; }
         /// <summary>
-        /// Íæ¼ÒµÄĞÒÔË¶È
+        /// ç©å®¶çš„å¹¸è¿åº¦
         /// </summary>
         BindableProperty<float> lucky { get; }
         /// <summary>
-        /// ¹¥»÷·¶Î§
+        /// æ”»å‡»èŒƒå›´
         /// </summary>
         BindableProperty<float> attackRange { get; }
         /// <summary>
-        /// Íæ¼Ò¿ÉÒÔ´¥·¢ÎüÑªµÄ¸ÅÂÊ
+        /// ç©å®¶å¯ä»¥è§¦å‘å¸è¡€çš„æ¦‚ç‡
         /// </summary>
         BindableProperty<float> lifeSteal { get; }
         /// <summary>
-        /// Íæ¼Ò³ÖÓĞµÄ½ğ±ÒÊı
+        /// ç©å®¶æŒæœ‰çš„é‡‘å¸æ•°
         /// </summary>
         BindableProperty<float> coin { get; }
         /// <summary>
-        /// Íæ¼ÒµÈ¼¶
+        /// ç©å®¶ç­‰çº§
         /// </summary>
         BindableProperty<float> LV { get; }
 
